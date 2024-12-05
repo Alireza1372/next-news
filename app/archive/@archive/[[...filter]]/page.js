@@ -9,6 +9,7 @@ import { getAvailableNewsYears } from "@/lib/news";
 
 export default function FilteredNewsPage({ params }) {
   const filter = params.filter;
+
   const selectedYear = filter?.[0];
   const selectedMonth = filter?.[1];
 
